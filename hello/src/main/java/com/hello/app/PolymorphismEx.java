@@ -17,6 +17,7 @@ public class PolymorphismEx {
 
         // 만약 이 상황에서 HalloWorldKo를 HalloWorldEn으로 변경해야 한다면?
         // 이렇게 많은 객체 혹은 더 많은 객체가 있을 경우 변경하기가 어렵다.
+        // 이런 반복적인 코드로 인한 유지보수의 어려움을 해결하기 위해 스프링 프레임워크가 탄생했다고 한다.
 
         callMethod(hello);
     }
